@@ -129,8 +129,8 @@ oniontipModule.controller('OnionTipCtrl',function OnionTipCtrl($scope,$http,$loc
         $('.postdonate').append(
           $('<a/>')
             .attr("href", "https://twitter.com/share")
-            .attr("data-text", "I've donated " + response.data.tx_value +" to Tor relay operators. Help support the Tor network and a private internet on #OnionTip")
-            .attr("data-url", "https://oniontip.com")
+            .attr("data-text", "I've donated " + response.data.tx_value +" to Tor relay operators. Help support the Tor network and a private internet on #TorTip")
+            .attr("data-url", "https://tortip.com")
             .attr("data-related", "TorProject,EFF")
             .attr("data-dnt", "true")
             .attr("data-count", "none")
