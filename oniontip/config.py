@@ -1,7 +1,7 @@
 # -*- config:utf-8 -*-
 import os
 
-project_name = 'oniontip'
+project_name = 'tortip'
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 DEBUG = False
@@ -22,4 +22,6 @@ MAIL_PASSWORD = None
 MAIL_EMAIL = None
 
 # administrator email list
-ADMINS = ['']
+ADMINS = ['twilde@bitcoin-home.krellis.org']
+
+SERVER_NAME = 'tortip.com'
