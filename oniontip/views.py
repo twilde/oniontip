@@ -233,7 +233,8 @@ def check_and_send(address):
                     'data': {
                         'message': '<strong>Success!</strong> Your transaction was received and forwarded to your selected relays. '
                                     '<a target="_blank" href="https://blockchain.info/tx/'+tx_hash+'">'+tx_hash[0:10]+'..</a>',
-                        'tx_hash': tx_hash
+                        'tx_hash': tx_hash,
+                        'tx_value': tx_total,
                     }}
         except Exception, err:
             if err:
